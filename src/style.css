@@ -34,7 +34,10 @@ h3 {
 input {
   width: 300px;
   height: 100px;
-  margin: 0 2px
+  margin: 0 2px;
 }
-
+.desp {
+    height: 30px;
+    width: 40px;
+}
 
