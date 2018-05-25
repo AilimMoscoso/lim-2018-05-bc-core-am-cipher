@@ -1,5 +1,5 @@
-window.cipher = {
-  Encode: (string, offset)=>{ 
+window.cipher = { 
+  Encode: (string, offset)=>{
     let messageCipher = " ";
     let alphabet = "abcdefghijklmnopqrstuvwxyz"
   for (let i = 0; i < string.length; i++) {
