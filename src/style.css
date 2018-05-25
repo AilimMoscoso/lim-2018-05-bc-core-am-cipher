@@ -6,7 +6,7 @@ button {
     font-size: 16px;
     cursor: pointer;
     border-radius: 4px;
-    width: 15%;
+    width: 30%;
     border: 3px;
     padding: 10px;
 }
@@ -14,21 +14,16 @@ body {
     background-image: url('https://4.bp.blogspot.com/-3o9Q5nlv-oU/WOM2r1eMMwI/AAAAAAAAAME/Gf1jJtlFcl4kbynVuOK6memwQWSaNiKfgCLcB/s1600/Customizable%2BMatrix%2BDigital%2BRain.jpg');
     background-repeat: repeat;
     background-size: 100%;
-    text-align:center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size:18px;
 }
-
 h3 {
-    text-align:center;
-    padding: 20px;
     color:#77b83a;
-    display:inline-block;
     word-spacing: 10px;
     font-size: 55px;
     margin: 15px;
 }
-  h4 {
+h4 {
     color: rgb(255, 255, 255);
 }
 input {
@@ -40,4 +35,10 @@ input {
     height: 30px;
     width: 40px;
 }
-
+div {
+    display: inline-block;
+    width: 33%;
+}
+.tittle {
+    text-align: center;
+}

@@ -3,18 +3,26 @@
   <head>
     <meta charset="utf-8">
     <title>Cifrado Cesar Online</title>
-    <h3>Bienvenid@ a Caesar Cipher App</h3><br>
-    <link rel="stylesheet" href="style.css"/>
-    <h4>Ingrese Texto<br><br><input id="mensaje" type="text"/></h4><br>;
-    <button onclick="encriptar">Codificar</button>
-    <button onclick="desencriptar">Decodificar</button>
-    <h4>Desplazamiento</h4><input class="desp" type="text"/><br>;
-    <h4 id="resultado">Resultado</h4><input id= "resultado2" type="text"/>><br>
-  </head>
-  <body>
-    <div id="root"></div>
     <script src="cipher.js"></script>
     <script src="index.js"></script>
+    <link rel="stylesheet" href="style.css"/>
+  </head>
+  <body>
+    <h3>Bienvenid@ a Caesar Cipher App</h3><br>
+    <div>
+      <h4>Ingrese Texto</h4>
+      <input type="text"/>
+    </div>
+    <div>
+      <button onclick="encriptar">Codificar</button>
+      <button onclick="desencriptar">Decodificar</button>
+      <h4>Desplazamiento</h4>
+      <input class="desp" type="text"/>
+    </div>
+    <div>
+      <h4 id="resultado">Resultado</h4>
+      <input id= "resultado2" type="text"/>
+    </div>
   </body>
 </html>
  
