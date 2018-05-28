@@ -42,3 +42,19 @@ div {
 .tittle {
     text-align: center;
 }
+.ingresartexto{
+    border:1px solid red;
+    width: 60%;
+    margin: 2% 20%;
+}
+.ingresartexto div:nth-child(1){
+    border:1px solid blue; 
+    width: 60%;
+    margin: 2% 20%;  
+}
+.ingresartexto div:nth-child(2){
+    border:1px solid green;   
+}
+.ingresartexto div:nth-child(1){
+    border:1px solid yellow;   
+}
