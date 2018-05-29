@@ -1,11 +1,13 @@
-function obtenerValor () {
+function obtenerValor (type) {
     let message = document.getElementById("message").value;
     let offset = parseInt(document.getElementById("offset").value);
-    let salida1 = window.cipher.Encode(message,offset);
-    document.getElementById("resultado2").value=salida1;
+    let salida;
+    if (type === 'encode') salida = window.cipher.Encode(message,offset);
+    else salida = window.cipher.Decode(message,offset);
+    document.getElementById("resultado2").value=salida;
     console.log(message);
     console.log(offset);
-    console.log(salida1);
+    console.log(salida);
 }
  //let alphabet = "abcdefghijklmnopqrstuvwxyz";
     //.addEventListener("click", encriptar(){
