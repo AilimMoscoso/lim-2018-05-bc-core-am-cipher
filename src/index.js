@@ -5,9 +5,9 @@ function obtenerValor (type) {
     if (type === 'encode') salida = window.cipher.Encode(message,offset);
     else salida = window.cipher.Decode(message,offset);
     document.getElementById("resultado2").value=salida;
-    console.log(message);
-    console.log(offset);
-    console.log(salida);
+    //console.log(message);
+    //console.log(offset);
+    //console.log(salida);
 }
  //let alphabet = "abcdefghijklmnopqrstuvwxyz";
     //.addEventListener("click", encriptar(){
