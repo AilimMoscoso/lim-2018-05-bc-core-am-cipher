@@ -30,7 +30,7 @@ h3 {
     font-size: 55px;
     margin: 1% 10%;
     width: 80%;
-  text-align: center
+    text-align: center
 
 }
 h4 {
@@ -49,7 +49,6 @@ input {
     border-radius: 7%;
     padding: .2em .2em; 
     font-size: 15px;
-    text-align: center;
 }
 div div{
     width: 30%;
@@ -79,6 +78,17 @@ div div{
     border: 1px solid yellow;
     text-align: center;
     margin-top: 7%;
+}
+section{
+    border: 1px solid brown;
+    height: 600px;
+}
+footer {
+    color: #fff;
+    display: block;
+    border: 2px solid palevioletred;
+    text-align: center;
+    width: 10% 10%;
 }
 @media(max-width:850px){
     div div{

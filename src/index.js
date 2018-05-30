@@ -1,4 +1,15 @@
-function obtenerValor (type) {
+let message = document.getElementById("message");
+let salida = document.getElementById("resultado2");
+let offset = document.getElementById("offset"); 
+document.getElementById('codifica').addEventListener('click', function(){
+let mensajeCifrado = window.cipher.encode(message.value,parseInt(offset.value));
+salida.value= mensajeCifrado;
+});
+document.getElementById('decodifica').addEventListener('click', function(){ 
+let mensajeDescifrado = window.cipher.decode(message.value,parseInt(offset.value));
+salida.value= mensajeDescifrado;
+});
+/*function obtenerValor (type) {
     let message = document.getElementById("message").value;
     let offset = parseInt(document.getElementById("offset").value);
     let salida;
