@@ -1,13 +1,13 @@
 let message = document.getElementById("message");
 let salida = document.getElementById("resultado2");
-let offset = document.getElementById("offset"); 
-document.getElementById('codifica').addEventListener('click', function(){
-let mensajeCifrado = window.cipher.encode(message.value,parseInt(offset.value));
-salida.value= mensajeCifrado;
+let offset = document.getElementById("offset");
+document.getElementById('codifica').addEventListener('click', () => {
+  let mensajeCifrado = window.cipher.encode(message.value.toUpperCase(), parseInt(offset.value));
+  salida.value = mensajeCifrado.toUpperCase();
 });
-document.getElementById('decodifica').addEventListener('click', function(){ 
-let mensajeDescifrado = window.cipher.decode(message.value,parseInt(offset.value));
-salida.value= mensajeDescifrado;
+document.getElementById('decodifica').addEventListener('click', () => {
+  let mensajeDescifrado = window.cipher.decode(message.value.toLowerCase(), parseInt(offset.value));
+  salida.value = mensajeDescifrado.toUpperCase();
 });
 /*function obtenerValor (type) {
     let message = document.getElementById("message").value;

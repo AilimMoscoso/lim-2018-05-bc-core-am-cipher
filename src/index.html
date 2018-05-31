@@ -1,36 +1,40 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher Online</title>
-    <link rel="stylesheet" href="style.css"/>
-  </head>
-  <body>
-    <section>
-        <h3>Bienvenid@ a Caesar Cipher App</h3><br>
-      <div class="contenedor">
-        <p>A continuación podrás cifrar y descifrar tus mensajes.  
-          Primero, coloca el texto a cifrar o descifrar, luego coloca el n° de desplazamientos 
-          que quieres saltar y haz click en la opción requerida.</p>
-        <div class= "texto">
-          <h4>Ingrese Texto</h4>
-          <input id="message" type="text"/>
-        </div>
-        <div class="opciones">   
-          <button id="codifica">Codificar</button>
-          <button id="decodifica">Decodificar</button>
-          <p class="desplazar"> Desplazamiento</p>
-          <input class="desp"id= "offset" type="number"/>
-        </div>
-        <div class = "resultado">
-          <h4 id="resultado">Resultado</h4>
-          <input id= "resultado2" type="text"/>
-        </div>   
+
+<head>
+  <meta charset="utf-8">
+  <title>Caesar Cipher Online</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <section>
+    <h3>Bienvenid@ a Caesar Cipher App</h3>
+    <br>
+    <div class="contenedor">
+      <p>A continuación podrás cifrar y descifrar tus mensajes. Primero, coloca el texto a cifrar o descifrar, luego coloca
+        el n° de desplazamientos que quieres saltar y haz click en la opción requerida.</p>
+      <div class="texto">
+        <h4>Ingrese Texto</h4>
+        <input id="message" type="text" />
       </div>
-    </section>    
-    <footer><p>Elaborado por Ailim Moscoso©</p></footer>  
-    <script src="cipher.js"></script>
-    <script src="index.js"></script>
-  </body>
+      <div class="opciones">
+        <button id="codifica">Codificar</button>
+        <button id="decodifica">Decodificar</button>
+        <p class="desplazar"> Desplazamiento</p>
+        <input class="desp" id="offset" type="number" />
+      </div>
+      <div class="resultado">
+        <h4 id="resultado">Resultado</h4>
+        <input id="resultado2" type="text" />
+      </div>
+    </div>
+  </section>
+  <footer>
+    <p>Elaborado por Ailim Moscoso©</p>
+  </footer>
+  <script src="cipher.js"></script>
+  <script src="index.js"></script>
+</body>
+
 </html>
- 
