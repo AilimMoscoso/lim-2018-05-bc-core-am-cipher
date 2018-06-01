@@ -3,11 +3,11 @@ let salida = document.getElementById("resultado2");
 let offset = document.getElementById("offset");
 document.getElementById('codifica').addEventListener('click', () => {
   let mensajeCifrado = window.cipher.encode(message.value.toUpperCase(), parseInt(offset.value));
-  salida.value = mensajeCifrado.toUpperCase();
+  salida.value = mensajeCifrado;
 });
 document.getElementById('decodifica').addEventListener('click', () => {
-  let mensajeDescifrado = window.cipher.decode(message.value.toLowerCase(), parseInt(offset.value));
-  salida.value = mensajeDescifrado.toUpperCase();
+  let mensajeDescifrado = window.cipher.decode(message.value, parseInt(offset.value));
+  salida.value = mensajeDescifrado;
 });
 /*function obtenerValor (type) {
     let message = document.getElementById("message").value;

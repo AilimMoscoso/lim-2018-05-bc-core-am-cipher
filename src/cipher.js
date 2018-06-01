@@ -9,9 +9,10 @@ window.cipher = {
     }
     return messageCipher;
   },
-  decode: (string, offset) => { debugger
+  decode: (string, offset) => { 
     let messageCipher = "";
-    let alphabet = "abcdefghijklmnopqrstuvwxyz"
+    let alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+    offset %= 26;
     for (let i = 0; i < string.length; i++) {
       let ind = alphabet.indexOf(string[i]);
       if (ind == -1) messageCipher += string[i];
