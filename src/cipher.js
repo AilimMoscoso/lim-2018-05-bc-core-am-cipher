@@ -1,5 +1,5 @@
 window.cipher = {
-  encode: (string, offset) => { 
+  encode: (string, offset) => {
     let messageCipher = "";
     let alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
     for (let i = 0; i < string.length; i++) {
@@ -9,7 +9,7 @@ window.cipher = {
     }
     return messageCipher;
   },
-  decode: (string, offset) => { 
+  decode: (string, offset) => {
     let messageCipher = "";
     let alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
     offset %= 26;

@@ -9,4 +9,3 @@ document.getElementById('decodifica').addEventListener('click', () => {
   let mensajeDescifrado = window.cipher.decode(message.value, parseInt(offset.value));
   salida.value = mensajeDescifrado;
 });
-
